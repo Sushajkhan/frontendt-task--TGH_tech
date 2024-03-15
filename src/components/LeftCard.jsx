@@ -3,7 +3,7 @@ import user from "../assets/user.svg";
 const LeftCard = () => {
   return (
     <>
-      <div className="bg-primary text-white h-screen w-1/3 flex flex-col gap-10">
+      <div className="bg-primary text-white h-screen  flex flex-col gap-10">
         <div className="text-2xl self-center py-4">Quotverse</div>
         <div className="flex flex-col ml-16  ">
           <img src={user} className="w-16 h-16" alt="" />
