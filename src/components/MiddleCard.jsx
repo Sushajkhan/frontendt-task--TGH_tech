@@ -1,6 +1,7 @@
 import user from "../assets/user.svg";
 import home from "../assets/homeicon.svg";
 import like from "../assets/like.svg";
+import QuoteCard from "./QuoteCard";
 const RightCard = () => {
   return (
     <div>
@@ -13,6 +14,10 @@ const RightCard = () => {
             <img src={like} alt="" />
           </div>
         </div>
+
+        <QuoteCard />
+        <QuoteCard />
+        <QuoteCard />
       </div>
     </div>
   );

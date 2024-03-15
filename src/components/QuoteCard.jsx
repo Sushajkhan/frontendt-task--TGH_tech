@@ -6,7 +6,7 @@ import share from "../assets/send.svg";
 
 const QuoteCard = () => {
   return (
-    <div className="py-5 px-5 bg-black text-white flex gap-4 w-max">
+    <div className="py-5 px-5 bg-primary text-white flex gap-4 w-max">
       <div>
         <img src={users} alt="" />
       </div>
